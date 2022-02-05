@@ -1,0 +1,65 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.movie-card-group > .row {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.movie-card-group > .row > .col-md-3 {
+    display: inline-block;
+} 
+
+#scrollbar::-webkit-scrollbar
+{
+    height: 10px;
+    background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+
+#scrollbar::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+}
+  
+#scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.pb-20{
+    padding-bottom: 230px;
+}
+
+.pb-40{
+    padding-bottom: 350px;
+}
+
+.text-white ul>li>button{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity));
+}
+
+.text-dark ul>li>button:hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-dark-rgb),var(--bs-text-opacity));
+}
+
+.Mui-selected {
+    background-color: #ff8000 !important;
+}
